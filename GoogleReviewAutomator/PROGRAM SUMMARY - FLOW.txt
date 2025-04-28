@@ -1,0 +1,50 @@
+Got it — you want a **short, crisp, meaningful** step-by-step list, like a **summary for quick understanding**.
+
+Here’s the **concise version** you asked for:
+
+---
+
+# 📋 Program Summary
+
+---
+
+**Step 1:** Google Maps place URL input → `initialize_browser(url)`  
+→ Opens the URL in Chrome.
+
+**Step 2:** Click "All reviews" button → `get_all_reviews_button()`  
+→ Opens full reviews section.
+
+**Step 3:** Extract all reviews → `extract_reviews()`  
+→ Collects all visible review texts.
+
+**Step 4:** Summarize the extracted reviews → `summarize_reviews(reviews)`  
+→ AI generates a short summary.
+
+**Step 5:** Generate an auto-comment → `generate_comment(summary)`  
+→ AI creates a comment based on summary.
+
+**Step 6:** Wait for user ENTER key → `input()`  
+→ Pause for manual check (e.g., signed-in status).
+
+**Step 7:** Click "Write a review" button → `post_comment(comment)`  
+→ Types and submits the auto-comment.  
+⚠️ **Problem:** Needs Google account signed in — else fails.
+
+**Step 8:** Save session data to CSV → `save_to_csv()`  
+→ Stores URL, summary, and comment in a file.
+
+**Step 9:** Show session summary → `prepare_and_print_logs()`  
+→ Displays all reviews processed so far.
+
+**Step 10:** Loop for next URL or Exit → `main()`  
+→ Continue or finish the session.
+
+---
+
+# ⚠️ Important Note:
+> **Posting reviews requires Google Sign-In**, which Selenium cannot handle unless you open Chrome with your **real user profile**.
+
+---
+
+Would you also like a slightly more **flowchart style** version too (even quicker to grasp)? 🚀  
+*(1-line per step diagram?)*
