@@ -5,7 +5,7 @@ Gemini integration module for generating summaries and comments.
 from google.generativeai import configure, GenerativeModel
 
 # Gemini Pro config
-configure(api_key="AIzaSyDncmZUfSm9_hSrTWWn1gzpx8l13Q8F9UU")
+configure(api_key="edit the key here")
 model = GenerativeModel(model_name="gemini-1.5-pro-latest")
 
 def summarize_reviews(reviews):
